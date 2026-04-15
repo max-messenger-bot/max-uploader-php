@@ -1,0 +1,41 @@
+{
+    "name": "max-messenger-bot/max-uploader-php",
+    "description": "Max messenger Uploader",
+    "keywords": [
+        "max",
+        "messenger",
+        "uploader",
+        "php"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "MaxMessenger\\Uploader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugene",
+            "email": "mj4444@mail.ru"
+        }
+    ],
+    "support": {
+        "email": "mj4444@mail.ru",
+        "chat": "https://t.me/mj4444ru"
+    },
+    "require": {
+        "php": "^8.2",
+        "max-messenger-bot/max-bot-api-php": "0.1.*",
+        "mj4444/simple-http-client": "^0.2.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.3",
+        "codeception/module-asserts": "*",
+        "vimeo/psalm": "^6.16"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
