@@ -27,8 +27,8 @@
     },
     "require": {
         "php": "^8.2",
-        "max-messenger-bot/max-bot-api-php": "0.1.*",
-        "mj4444/simple-http-client": "^0.2.0"
+        "max-messenger-bot/max-bot-api-php": "~0.1.0",
+        "mj4444/simple-http-client": "~0.2.0"
     },
     "require-dev": {
         "codeception/codeception": "^5.3",

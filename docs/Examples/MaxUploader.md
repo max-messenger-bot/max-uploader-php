@@ -57,7 +57,7 @@ use MaxMessenger\Uploader\MaxUploader\Content\Stream;
 
 $imageToken = $uploader->uploadFile(new Stream($resource, 'image.webp'));
 $message = NewMessageBody::new()
-    ->addImageAttachment($fileToken);
+    ->addImageAttachment($imageToken);
 ```
 
 **Загрузка аудиофайла:**
