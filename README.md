@@ -1,6 +1,5 @@
 # Max Uploader For PHP
 
-
 <img src="docs/Images/bot-icon.webp" align="left">
 
 Этот пакет предназначен для загрузки файлов на сервера для Max API в полностью объектно-ориентированном формате.<br>
@@ -62,8 +61,8 @@ composer require max-messenger-bot/max-uploader-php
 
 ### Зависимости
 
-- `max-messenger-bot/max-bot-api-php` 0.1.*
-- `mj4444/simple-http-client` ^0.2.0 — HTTP-клиент для выполнения запросов
+- `max-messenger-bot/max-bot-api-php` ^0.1|^0.2
+- `mj4444/simple-http-client` ^0.2 — HTTP-клиент для выполнения запросов
 
 ## Примеры
 
